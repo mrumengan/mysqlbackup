@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "dotenv": "^8.2.0",
     "moment": "^2.29.1",
     "node-cron": "^2.0.3"
   }
