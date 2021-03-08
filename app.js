@@ -20,7 +20,7 @@ cron.schedule('0 0 * * *', () => {
       .stdout
       .pipe(wstream)
       .on('finish', () => {
-        console.log(new Date(), 'DB Backup ${dbName} Completed!')
+        console.log(new Date(), 'DB Backup ' + dbName + ' Completed!')
       })
       .on('error', (err) => {
         console.log(new Date(), err)
